@@ -1,0 +1,10 @@
+{
+    "name": "nina-carducci",
+    "version": "1.0.0",
+    "scripts": {
+        "minify-js": "terser assets/scripts/maugallery.js -o assets/scripts/maugallery.min.js --compress --mangle"
+    },
+    "dependencies": {
+        "terser": "^5.43.0"
+    }
+}
